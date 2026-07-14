@@ -1,10 +1,11 @@
+/* Navbar */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  width: 99%;
-  padding: 8px 20px;
+  width: 100%;
+  padding: 10px 20px;
 
   border-bottom: 1px solid #d6d4d4;
 }
@@ -69,4 +70,52 @@ nav {
   height: 600px;
   width: 600px;
   object-fit: cover;
+}
+
+/* Hero Section */
+.hero {
+  height: 600px;
+  width: 100%;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  background: rgb(247, 247, 247);
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1;
+  width: 16ch;
+  margin-bottom: 32px; 
+}
+
+.hero div h1 span {
+  color: rgba(167, 115, 19, 0.854);
+}
+
+.hero p {
+  font-size: 16px;
+  width: 48ch;
+  margin-bottom: 32px;
+  color: rgb(68, 70, 71);
+}
+
+.hero div button {
+  cursor: pointer;
+  background: rgba(104, 25, 3, 0.728);
+  color: rgba(255, 255, 255, 0.799);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 18px;
+}
+
+.hero div button:hover {
+  background: rgba(104, 25, 3, 0.82);
+}
+
+.hero img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
