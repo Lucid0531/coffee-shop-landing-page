@@ -47,29 +47,25 @@ nav {
 .sign-up {
   border: none;
   border-radius: 25px;
-  background: rgb(190, 188, 188);
-  font-weight: 600;
+  background: #C89F65;
+  color: #fff;
+  font-weight: 500;
 }
 
 .sign-up:hover {
-  background: rgb(158, 154, 154);
+  background: #b7935d;
 }
 
 .log-in {
   border: 1px solid #000;
   border-radius: 25px;
-  background: #fff;
-  font-weight: 550;
+  background: #3E2723;
+  font-weight: 500;
+  color: #fff;
 }
 
 .log-in:hover {
-  background: rgb(232, 229, 229);
-}
-
-.hero img {
-  height: 600px;
-  width: 600px;
-  object-fit: cover;
+  background: #58362f;
 }
 
 /* Hero Section */
@@ -79,18 +75,23 @@ nav {
   padding: 10px 40px;
   display: flex;
   align-items: center;
-  background: rgb(247, 247, 247);
+
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.hero div {
+  width: 50%;
 }
 
 .hero h1 {
-  font-size: 64px;
-  line-height: 1;
   width: 16ch;
   margin-bottom: 32px; 
 }
 
 .hero div h1 span {
-  color: rgba(167, 115, 19, 0.854);
+  font-family: "poppins";
+  color: #6F4E37;
+  width: 20ch;
 }
 
 .hero p {
@@ -100,22 +101,124 @@ nav {
   color: rgb(68, 70, 71);
 }
 
-.hero div button {
+.place-my-order {
   cursor: pointer;
-  background: rgba(104, 25, 3, 0.728);
-  color: rgba(255, 255, 255, 0.799);
+  background: #C89F65;
+  color: #fff;
+  font-weight: 500;
   border: none;
   border-radius: 4px;
   padding: 10px 18px;
 }
 
-.hero div button:hover {
-  background: rgba(104, 25, 3, 0.82);
+.place-my-order:hover {
+  background: #b7935d;
+}
+
+.learn-more {
+  cursor: pointer;
+  background: #3E2723;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 18px;
+  margin-left: 8px;
+}
+
+.learn-more:hover {
+  background: #58362f;
 }
 
 .hero img {
   height: 500px;
-  width: 100%;
+  width: 50%;
   object-fit: cover;
   border-radius: 20px;
 }
+
+/* Featured Products */
+
+.featured-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 80px 40px;
+}
+
+.featured-products h1 {
+  margin-bottom: 16px;
+}
+
+.featured-products > p {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  height: 420px;
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 3px 8px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.desc {
+  padding: 10px 8px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.coffee-desc {
+  font-size: 14px;
+  color: #4c4b4b;
+  margin-bottom: 12px;
+}
+
+.price {
+  margin-top: auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card button {
+  cursor: pointer;
+  background: #C89F65;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 18px;
+  margin: 8px;
+}
+
+.card button:hover {
+  background: #b7935d;
+}
+
+/* About Us */
