@@ -256,6 +256,7 @@ nav {
   text-transform: capitalize;
   letter-spacing: 3px;
   color: #C89F65;
+  margin-bottom: 20px;
 }
 
 .about-us-main-heading {
@@ -263,6 +264,7 @@ nav {
   font-size: 42px;
   font-weight: 700;
   line-height: 1.2;
+  margin-bottom: 25px;
 }
 
 .about-us-description {
@@ -270,4 +272,102 @@ nav {
   width: 90%;
   color: #555555;
   line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.stats { 
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+}
+
+.stat {
+  width: 120px;
+  height: 80px;
+}
+
+.num {
+  font-size: 32px;
+  font-weight: 700;
+  color: brown;
+}
+
+.label {
+  font-size: 15px;
+  color: gray;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+  height: 650px;
+  background: #F4ECE2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+
+  justify-items: center;
+}
+
+.why-choose-us-header {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #C89F65;
+}
+
+.why-choose-us-main-heading {
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #3E2723;
+}
+
+.why-choose-us-subtitle {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  align-items: center;
+}
+
+.feature-card {
+  width: 100%;
+  height: 220px;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  background: white;
+  transition: .3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.feature-card img:hover {
+  transform: scale(1.15);
+}
+
+.feature-card h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
