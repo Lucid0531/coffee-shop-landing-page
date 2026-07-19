@@ -252,19 +252,7 @@ nav {
 }
 
 .about-us-heading {
-  font-size: 14px;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  color: #C89F65;
   margin-bottom: 20px;
-}
-
-.about-us-main-heading {
-  font-family: "poppins";
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 25px;
 }
 
 .about-us-description {
@@ -300,28 +288,13 @@ nav {
 
 /* Why Choose Us */
 .why-choose-us {
-  height: 650px;
+  height: 700px;
   background: #F4ECE2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 40px;
+  padding: 60px 40px;
 
   justify-items: center;
-}
-
-.why-choose-us-header {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 600;
-  color: #C89F65;
-}
-
-.why-choose-us-main-heading {
-  font-size: 42px;
-  text-transform: capitalize;
-  font-weight: 700;
-  color: #3E2723;
 }
 
 .why-choose-us-subtitle {
@@ -329,7 +302,7 @@ nav {
   line-height: 1.8;
   max-width: 650px;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   color: #555;
 }
 
@@ -370,4 +343,79 @@ nav {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 15px;
+}
+
+/* Reviews */
+.reviews {
+  height: 700px;
+  background: #FAF7F2;
+  max-width: 1200px;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 100px 40px;
+}
+
+.reviews-desc {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.review-card {
+  width: 360px;
+  padding: 35px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rating {
+  font-size: 22px;
+  color: #F4B400;
+  margin-bottom: 20px;
+}
+
+.review-text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  font-style: italic;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.reviewer-info img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customer-name {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3E2723; 
+}
+
+.customer-role {
+  font-size: 15px;
+  color: #888;
 }

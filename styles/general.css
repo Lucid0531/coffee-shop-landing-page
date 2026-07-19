@@ -17,3 +17,19 @@ body {
   font-size: 64px;
   line-height: 1;
 }
+
+.small-heading {
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #C89F65;
+}
+
+.large-heading {
+  font-family: "poppins";
+  font-size: 42px;
+  font-weight: 700;
+  color: #3E2723;
+  line-height: 1.2;
+}
