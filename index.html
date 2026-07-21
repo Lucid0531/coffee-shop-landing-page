@@ -7,7 +7,14 @@
     <title>Coffee Shop Landing Page</title>
 
     <link rel="stylesheet" href="./styles/general.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/featured-products.css">
+    <link rel="stylesheet" href="./styles/about-us.css">
+    <link rel="stylesheet" href="./styles/why-choose-us.css">
+    <link rel="stylesheet" href="./styles/reviews.css">
+    <link rel="stylesheet" href="./styles/newsletter.css">
+    <link rel="stylesheet" href="./styles/footer.css">
   </head>
 
   <body>
@@ -31,7 +38,7 @@
       </div>
     </nav>
 
-    <section class="hero">
+    <section id="home" class="hero">
       <div>
         <h1 class="header-1">
           Brewed for comfort, <br>
@@ -54,7 +61,7 @@
       <img src="./images/cappuccino.jpg" alt="">
     </section>
 
-    <section class="featured-products">
+    <section id="menu" class="featured-products">
       <h1 class="header-1">
         Featured Coffees
       </h1>
@@ -129,7 +136,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section id="about-us" class="about">
       <div class="about-us-image">
         <img src="./images/coffee-place.jpg" alt="">
       </div>
@@ -166,7 +173,7 @@
       </div>
     </section>
 
-    <section class="why-choose-us">
+    <section id="why-choose-us" class="why-choose-us">
       <p class="small-heading">
         Why Choose Brew
       </p>
@@ -206,7 +213,7 @@
       </div>
     </section>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
       <p class="small-heading">
         Customer Reviews
       </p>
@@ -264,8 +271,131 @@
       </div>
     </section>
 
-    <footer>
+    <section id="newsletter" class="newsletter">
+      <div class="newsletter-container">
+        <img src="./images/coffee-beans.png" alt="">
+        <p class="main-heading">Stay Connected with Brew.</p>
+        <p class="newsletter-desc">Join our newsletter and be the first to discover new coffee blends, seasonal specials, exclusive discounts, and events happening at Brew.</p>
 
+        <div class="form">
+          <input type="email" placeholder="Enter your email address">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="main-footer">
+        <div class="column">
+          <p class="footer-logo">Brew.</p>
+          <p class="footer-tagline">Crafting premium coffee experiences one cup at a time.</p>
+
+          <div class="socials">
+            <a href="#">
+              <img src="./images/instagram.png" alt="">
+            </a>
+
+            <a href="#">
+              <img src="./images/facebook.png" alt="">
+            </a>
+
+            <a href="#">
+              <img src="./images/x.png" alt="">
+            </a>
+
+            <a href="#">
+              <img src="./images/youtube.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <p class="quick-links">Quick Links</p>
+
+          <div class="web-links">
+            <a href="#home">
+              Home
+            </a>
+
+            <a href="#menu">
+              Menu
+            </a>
+
+            <a href="#about-us">
+              About Us
+            </a>
+
+            <a href="#why-choose-us">
+              Why Choose Us
+            </a>
+
+            <a href="#reviews">
+              Reviews
+            </a>
+
+            <a href="#newsletter">
+              Newsletter
+            </a>
+
+            <a href="#">
+              Contact
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <p class="hours">Opening Hours</p>
+
+          <div class="table">
+            <div class="days">
+              <p>Monday - Friday</p>
+              <p>Saturday</p>
+              <p>Sunday</p>
+            </div>
+
+            <div class="times">
+              <p>7:00 AM - 8:00 PM</p>
+              <p>8:00 AM - 9:00 PM</p>
+              <p>8:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <p class="contact">Contact</p>
+
+          <div class="contact-container">
+            <div class="address">
+              <img src="./images/address.png" alt="">
+              <p>123 Coffee Street</p>
+            </div>
+
+            <div class="phone">
+              <img src="./images/phone.png" alt="">
+              <p>(868) 555-0123</p>
+            </div>
+
+            <div class="email">
+              <img src="./images/email.png" alt="">
+              <a href="#">hello@brewcoffee.com</a>
+            </div>
+
+            <div class="website">
+              <img src="./images/website.png" alt="">
+              <a href="#">www.brewcoffee.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <p>&copy; 2026 Brew. All rights reserved.</p>
+
+        <div class="bottom-footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
