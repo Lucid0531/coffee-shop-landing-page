@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+.about-us-image {
+  width: 45%;
+  flex: 4.5;
+}
+
+.about-us-image img {
+  height: 500px;
+  width: 420px;
+  object-fit: cover;
+  border-radius: 20px;
+  vertical-align: center;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.about-us-text {
+  flex: 5.5;
+}
+
+.about-us-heading {
+  margin-bottom: 20px;
+}
+
+.about-us-description {
+  font-size: 18px;
+  width: 90%;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.stats { 
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+}
+
+.stat {
+  width: 120px;
+  height: 80px;
+}
+
+.num {
+  font-size: 32px;
+  font-weight: 700;
+  color: brown;
+}
+
+.label {
+  font-size: 15px;
+  color: gray;
+}

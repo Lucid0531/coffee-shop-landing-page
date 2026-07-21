@@ -1,0 +1,145 @@
+footer {
+  background: #3E2723;
+  color: #F5F5F5;
+  height: 420px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-logo {
+  font-size: 34px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.footer-tagline {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #DDD;
+  margin-bottom: 25px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+}
+
+.socials a img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.socials a img:hover {
+  transform: translateY(-3px);
+}
+
+.quick-links, .hours, .contact {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.web-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 16px;
+}
+
+.web-links a {
+  color: #DDD;
+  text-decoration: none;
+}
+
+.web-links a:hover {
+  color: gold;
+  transform: translateX(5px);
+}
+
+.table {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.days p, .times p {
+  color: #DDD;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 12px 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.address, .phone, .email, .website {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.address img, .phone img, .email img, .website img {
+  height: 15px;
+  width: 15px;
+  object-fit: cover;
+}
+
+.address p, .phone p {
+  color: #DDD;
+  font-size: 14px;
+}
+
+.email a, .website a {
+  text-decoration: none;
+  color: #DDD;
+  font-size: 14px;
+}
+
+/* bottom footer */
+.bottom-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 60px;
+  height: 70px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.bottom-footer-links {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+  color: #BBB;
+}
+
+.bottom-footer-links a {
+  text-decoration: none;
+}
+
+.bottom-footer-links a:hover {
+  color: gold;
+  text-decoration: underline;
+}
